@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: 51_SpringBoot_ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Anand-bittu/Spring_Boot_Application.git
+server:
+  port: 9093

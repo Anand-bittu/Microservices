@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: 40_SpringBoot_MicroService_ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Anand-bittu/applicationProperties.git
+
+server:
+  port: 9093
